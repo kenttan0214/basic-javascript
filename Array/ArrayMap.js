@@ -6,9 +6,8 @@ const newListinMap = list.map((item) => {
   }
   return item;
 });
-
 console.log(newListinMap);
 
-// shorter the code
+// shorten the code
 const newListinMapShort = list.map(item => item % 2 === 0 ? 0 : item);
 console.log(newListinMapShort);
